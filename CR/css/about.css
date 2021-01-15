@@ -1,0 +1,50 @@
+/*Global */
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(150, 145, 145);
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+}
+/* nav*/
+nav{
+    background-color: rgb(56, 51, 51);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*header */
+header{
+    height: 400px;
+    margin-top: 0;
+    color: rgb(226, 228, 226);
+    background-image:url(../Hypelab.jpg) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.btn{
+    background-color: #027683;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    font-weight: 700px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;   
+}
